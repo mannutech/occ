@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include<math.h>
+int main(void) {
+	// your code goes here
+	int i,k=0,d,s=0,f=0;
+	scanf("%d",&d);
+	while(1){
+	    if(d==pow(2,k++))
+	{f=1;
+	break;
+		//printf("elemnt found");
+	     
+	    }
+	   // k++;
+	    break;
+	}
+	
+	if(f)
+	printf("Distance travelled");
+	else
+	printf("can't reach");
+		return 0;
+}
+
