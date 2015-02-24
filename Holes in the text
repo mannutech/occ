@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include<stdlib.h>
+int main(void) {
+	// your code goes here
+	int i,d,ct;
+	char str[100];
+	scanf("%d",&d);
+	while(d--)
+	{ 
+		ct=0;
+		//i=0;
+		scanf("%s",str);
+		for(i=0;i<strlen(str);i++)
+         {
+         	if(str[i]=='A'||str[i]=='D'||str[i]=='O'||str[i]=='P'||str[i]=='Q'||str[i]=='R')
+         ct++;
+         else  if(str[i]=='B')
+         ct+=2;
+         
+         //i++;
+        // printf("total :%d",ct);
+         //break;
+        }	
+			printf("%d\n",ct);
+	}
+return 0;
+}
